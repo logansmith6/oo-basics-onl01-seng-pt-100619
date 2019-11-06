@@ -40,7 +40,7 @@ class Book
   def page_count
     x = 272
     return x
-
+  end
 end
 
 Book.new("And Then THere Were None")
