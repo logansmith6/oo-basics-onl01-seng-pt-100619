@@ -13,7 +13,7 @@ tester = 0
     puts "Your shoe is as good as new!"
 tester = 1
   end
-  
+
   if tester == 1
     new_condition = "new"
   end
