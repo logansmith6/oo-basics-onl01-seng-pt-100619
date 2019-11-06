@@ -13,6 +13,6 @@ class Shoe
     puts "The shoe has been repaired"
   end
 
-  
+
 
 end
