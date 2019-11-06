@@ -11,7 +11,7 @@ tester = 0
 
   def cobble
     puts "Your shoe is as good as new!"
-    
+
   end
 
   attr_writer :condition
