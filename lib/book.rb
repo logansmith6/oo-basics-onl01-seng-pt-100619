@@ -31,10 +31,10 @@ class Book
   def genre
     @genre
   end
-
+page_count = 0
   def turn_page
     puts "Flipping the page...wow, you read fast!"
-    page_count = 0
+    
     page_count += 1
   end
 
