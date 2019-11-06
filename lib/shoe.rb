@@ -6,14 +6,14 @@ class Shoe
   def initialize(brand = "Nike")
     @brand = brand
   end
-
+tester = 0
   attr_accessor :brand, :color, :size, :material, :condition
 
   def cobble
     puts "Your shoe is as good as new!"
-    return 1
+tester = 1
   end
-  tester = cobble
+  
   if tester == 1
     new_condition = "new"
   end
