@@ -14,9 +14,9 @@ tester = 0
     attr_writer :condition
   end
 
-  
 
-  
+
+
 
 
 end
