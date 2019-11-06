@@ -11,16 +11,12 @@ tester = 0
 
   def cobble
     puts "Your shoe is as good as new!"
-tester = 1
+    attr_writer :condition
   end
 
-  if tester == 1
-    new_condition = "new"
-  end
+  
 
-  def condition=(new_condition)
-    @condition = new_condition
-  end
+  
 
 
 end
