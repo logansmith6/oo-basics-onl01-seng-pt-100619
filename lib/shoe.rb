@@ -13,8 +13,8 @@ class Shoe
     puts "Your shoe is as good as new!"
     return 1
   end
-
-  if cobble == 1
+  tester = cobble
+  if tester == 1
     new_condition = "new"
   end
 
