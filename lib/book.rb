@@ -34,6 +34,8 @@ class Book
 
   def turn_page
     puts "Flipping the page...wow, you read fast!"
+    page_count = 0
+    page_count += 1
   end
 
 end
