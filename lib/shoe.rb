@@ -7,13 +7,14 @@ class Shoe
     @brand = brand
   end
 tester = 0
-  attr_accessor :brand, :color, :size, :material, :condition
+  attr_accessor :brand, :color, :size, :material
 
   def cobble
     puts "Your shoe is as good as new!"
-    attr_writer :condition
+    
   end
 
+  attr_writer :condition
 
 
 
